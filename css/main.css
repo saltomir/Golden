@@ -1,0 +1,304 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+
+	height: 100vh;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.menu a:hover {
+ color: #fed136;;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.button:hover{
+	color: white;
+}
+
+.arrow {
+	width:50px;
+	margin-top: 50px;
+	margin-left: 440px;
+}
+
+/*
+#scroll {
+	animation: move 1s infinite alternate;
+}
+
+@@keyframes move {
+	0% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateX(5px);
+	}
+}
+*/
+
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.services {
+	margin-top: 80px;
+}
+
+.services__item	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services__item:last-child {
+	float: right;
+}
+
+.services__item:nth-child(2) {
+	margin-left: 60px;
+}
+
+#services {
+	padding-bottom: 120px;
+}
+
+.services__item img:hover{
+	width:100px;
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.works {
+	margin-top: 70px;
+}
+
+.works img {
+	float: left;
+	border-radius: 10px;
+}
+
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+
+.works img:last-child {
+	float: right;
+}
+
+.works img:hover{
+	-webkit-box-shadow: 8px 9px 18px -5px rgba(163,158,163,0.98);
+-moz-box-shadow: 8px 9px 18px -5px rgba(163,158,163,0.98);
+box-shadow: 8px 9px 18px -5px rgba(163,158,163,0.98);
+}
+
+.about{
+ padding-top: 80px;
+}
+
+.about-elem{
+ position: relative;
+ display:block;
+ text-align: center;
+ margin-bottom: 80px;
+}
+
+.about-elem .image{
+ display: inline-block;
+ overflow: hidden;
+ border-radius: 50%
+ width: 200px;
+ height: 200px;
+}
+
+.about-elem .image img{
+ display: inline-block;
+ vertical-align: top;
+}
+
+.about-elem .image img:hover{
+	width:205px;
+}
+
+.about-elem .content{
+ position: absolute;
+ top: -15px;
+}
+
+.about-elem .text_rght{
+ text-align: right;
+}
+
+.about-elem .text_lft{
+ text-align: left;
+}
+
+.about-elem .content span{
+ text-transform: uppercase;
+}
+
+.about-elem .content p{
+ color: #777777;
+ line-height:  1.55em;
+}
+
+.about-elem:nth-child(odd) .content{
+ right: 50%;
+ margin-right: 130px;
+}
+
+.about-elem:nth-child(even) .content{
+ left: 50%;
+ margin-left: 130px;
+}
+
+.about-elem .content .titless{
+ font-weight: 700;
+ text-align: right;
+}
+
+.about-elem .content .titless-lft{
+ text-align: left;
+}
+
+.footer__item {
+	float: left;
+	margin-top: 30px;
+}
+
+.footer__item:last-child {
+	float: right;
+}
+
+.footer__item:nth-child(2) {
+	margin-left: 270px;
+}
+
+#footer {
+	padding-bottom: 30px;
+	background-color:#f7f7f7;
+}
+
+footer .standards {
+	margin-right: 10px;
+	color: #777777;
+	text-decoration: none;
+	text-align: center;
+}
+
+ .soc-media img{
+	 display: inline;
+	 float: right;
+	 width: 30px;
+	 margin-right: 3px;
+
+ }
